@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>RGB Color Selector</title>
+</head>
+<body>
+  <h1>RGB COLOR SELECTOR</h1>
+
+  <div class="sliders">
+    
+    <div class="red container">
+      <h3>Red</h3>
+      <input type="range" id="red-slider" value="0" min="0" max="255">
+      <h4 id="red-value">0</h4>
+    </div>
+
+    <div class="green container">
+      <h3>Green</h3>
+      <input type="range" id="green-slider" value="0" min="0" max="255">
+      <h4 id="green-value">0</h4>
+    </div>
+    
+    <div class="blue container">
+      <h3>Blue</h3>
+      <input type="range" id="blue-slider" value="0" min="0" max="255">
+      <h4 id="blue-value">0</h4>
+    </div>
+    
+  </div>
+    
+  <div class="rgb-value container">
+    <div id="color-square"></div>
+    <p id="rgb-value"></p>
+  </div>
+  
+  <footer>
+    <p>Made with 💜 by <a href="https://www.linkedin.com/in/atilapms/">Atila</a></p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

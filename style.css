@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+
+h1 {
+  max-width: 300px;
+  text-align: center;
+  font-size: 40px;
+  color: #9999ff;
+  margin-bottom: 50px;
+}
+
+.container {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  height: 15px;
+  -webkit-appearance: none;
+  background-color: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0,0,0,1);
+}
+
+input#red-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #f00;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #f00;
+}
+
+input#green-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #0f0;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #0f0;
+}
+
+input#blue-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #00f;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px #00f;
+}
+
+.sliders {
+  text-align: center;
+  font-size: 20px;
+}
+
+.red {
+  color: #ff0000;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.blue {
+  color: #0000ff;
+}
+
+#color-square {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(0,0,0);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  border-color: #9999ff;
+}
+
+#rgb-value {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #9999ff;
+}
+
+footer {
+  font-size: 12px;
+  color: #9999ff;
+  margin-top: 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #9999ff;
+}
