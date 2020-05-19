@@ -1,7 +1,7 @@
 # RGB COLOR PICKER
 ### A simple RGB Color Picker
 
-##### Live Website: <a href="atilapms.github.io/rgbcolorpicker">LINK<a>
+##### Live Website: <a href="https://atilapms.github.io/rgbcolorpicker/">LINK<a>
 
 ##### Feel free to copy and make any changes
 
