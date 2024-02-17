@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style.css">
   <title>RGB Color Selector</title>
 </head>
 <body>
-  <h1>RGB COLOR SELECTOR</h1>
+  <h1>Color Picker</h1>
 
   <div class="sliders">
     
@@ -33,7 +34,16 @@
     
   <div class="rgb-value container">
     <div id="color-square"></div>
-    <p id="rgb-value"></p>
+    <div class="colors-container">
+      <div class="rgb-value-container">
+        <p id="rgb-value"></p>
+        <i class="rgb-copy-icon fa-regular fa-copy"></i>  
+      </div>
+      <div class="hex-value-container">
+        <p id="hex-value"></p>
+        <i class="hex-copy-icon fa-regular fa-copy"></i>  
+      </div>
+    </div>  
   </div>
   
   <footer>

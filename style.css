@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #1a1a1a;
+  padding: 1rem;
 }
 
 h1 {
@@ -26,6 +27,9 @@ h1 {
 .container {
   font-size: 15px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 input {
@@ -94,8 +98,8 @@ input#blue-slider::-webkit-slider-thumb {
   height: 150px;
   background-color: rgb(0,0,0);
   border-style: solid;
-  border-width: 2px;
-  border-radius: 15px;
+  border-width: 1px;
+  border-radius: 4px;
   border-color: #9999ff;
 }
 
@@ -103,17 +107,54 @@ input#blue-slider::-webkit-slider-thumb {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
-  margin-top: 15px;
   color: #9999ff;
 }
 
 footer {
   font-size: 12px;
   color: #9999ff;
-  margin-top: 60px;
+  position: absolute;
+  bottom: .5rem;
 }
 
 footer a {
   text-decoration: none;
   color: #9999ff;
+}
+
+.rgb-value-container {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9999ff;
+}
+
+.rgb-value-container i {
+  cursor: pointer;
+}
+
+.hex-value-container {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9999ff;
+}
+
+.hex-value-container i {
+  cursor: pointer;
+}
+
+#hex-value {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #9999ff;
+}
+
+.colors-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
