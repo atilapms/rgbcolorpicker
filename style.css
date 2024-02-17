@@ -111,10 +111,16 @@ input#blue-slider::-webkit-slider-thumb {
 }
 
 footer {
-  font-size: 12px;
-  color: #9999ff;
+  padding: .5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  bottom: .5rem;
+  bottom: 0;
+  font-size: 12px;
+  background-color: #201239;
+  color: #9999ff;
+  border-top: 1px solid;
 }
 
 footer a {
