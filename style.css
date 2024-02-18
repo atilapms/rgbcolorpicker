@@ -8,11 +8,12 @@
 }
 
 body {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #1a1a1a;
+  background: linear-gradient(360deg, #ad5389, #3c1053);
   padding: 1rem;
 }
 
@@ -20,7 +21,9 @@ h1 {
   max-width: 300px;
   text-align: center;
   font-size: 40px;
-  color: #9999ff;
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 50px;
 }
 
