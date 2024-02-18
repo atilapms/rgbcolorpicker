@@ -11,7 +11,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   background: linear-gradient(360deg, #ad5389, #3c1053);
   padding: 1rem;
